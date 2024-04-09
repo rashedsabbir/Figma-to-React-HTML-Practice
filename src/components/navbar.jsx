@@ -3,7 +3,7 @@ import React from "react";
 const navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-rose-400">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,51 +27,56 @@ const navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <a className="hover:bg-white hover:text-rose-400 text-white">
+                  Item 1
+                </a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a className="hover:bg-white hover:text-rose-400">Submenu 1</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a className="hover:bg-white hover:text-rose-400">Submenu 2</a>
+              </li>
+
+              <li>
+                <a className="hover:bg-white hover:text-rose-400">Item 3</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost hover:bg-white hover:text-rose-400 text-xl">
+            Our Story
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <a className="hover:bg-white hover:text-rose-400 text-white">
+                Item 1
+              </a>
+            </li>
+
+            <li>
+              <a className="hover:bg-white hover:text-rose-400 text-white">
+                Submenu 1
+              </a>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a className="hover:bg-white hover:text-rose-400 text-white">
+                Submenu 2
+              </a>
             </li>
+
             <li>
-              <a>Item 3</a>
+              <a className="hover:bg-white hover:text-rose-400 text-white">
+                Item 3
+              </a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn border-none hover:bg-white hover:text-rose-400 text-white">
+            Button
+          </a>
         </div>
       </div>
     </div>
