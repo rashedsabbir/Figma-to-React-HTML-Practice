@@ -39,7 +39,7 @@ const navbar = () => {
               </li>
 
               <li>
-                <a className="hover:bg-white hover:text-rose-400">Item 3</a>
+                <a className="hover:bg-white hover:text-rose-400">Item 4</a>
               </li>
             </ul>
           </div>
