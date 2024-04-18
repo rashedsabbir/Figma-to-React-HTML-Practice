@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Projects</title>
+  <style>
+    .project-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+    }
+    .project-box {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>React Projects</h1>
+  <div class="project-container">
+    <!-- Project boxes will be dynamically generated here -->
+  </div>
+
+  <script>
+    // Fetch the list of sub-folders
+    fetch('./projects.json')
+      .then(response => response.json())
+      .then(data => {
+        const projectContainer = document.querySelector('.project-container');
+
+        data.forEach(project => {
+          const projectBox = document.createElement('div');
+          projectBox.className = 'project-box';
+          projectBox.textContent = project.name;
+          projectBox.addEventListener('click', () => {
+            window.location.href = `${project.url}`;
+          });
+          projectContainer.appendChild(projectBox);
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching project data:', error);
+      });
+  </script>
+</body>
+</html>
