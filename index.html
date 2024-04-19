@@ -1,50 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React Projects</title>
-  <style>
-    .project-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      grid-gap: 20px;
-      padding: 20px;
-    }
-    .project-box {
-      border: 1px solid #ccc;
-      padding: 20px;
-      text-align: center;
-      cursor: pointer;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Page</title>
 </head>
 <body>
-  <h1>React Projects</h1>
-  <div class="project-container">
-    <!-- Project boxes will be dynamically generated here -->
-  </div>
+    <h1>Parent Page</h1>
+    <div id="reactApp1">
+        <!-- Placeholder for React App 1 -->
+    </div>
+    <div id="reactApp2">
+        <!-- Placeholder for React App 2 -->
+    </div>
 
-  <script>
-    // Fetch the list of sub-folders
-    fetch('./projects.json')
-      .then(response => response.json())
-      .then(data => {
-        const projectContainer = document.querySelector('.project-container');
+    <!-- Include React App 1 -->
+    <iframe src="./React/Webovio/index.html/" frameborder="0" width="100%" height="500"></iframe>
 
-        data.forEach(project => {
-          const projectBox = document.createElement('div');
-          projectBox.className = 'project-box';
-          projectBox.textContent = project.name;
-          projectBox.addEventListener('click', () => {
-            window.location.href = `${project.url}`;
-          });
-          projectContainer.appendChild(projectBox);
-        });
-      })
-      .catch(error => {
-        console.error('Error fetching project data:', error);
-      });
-  </script>
+    <!-- Include React App 2 -->
+    <iframe src="./React//fbps/index.html/" frameborder="0" width="100%" height="500"></iframe>
 </body>
 </html>
