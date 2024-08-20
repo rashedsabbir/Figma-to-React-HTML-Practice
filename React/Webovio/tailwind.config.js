@@ -5,7 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('../Webovio/src/assets/slider-1.png')",
+    },
   },
   daisyui: {
     themes: ["light"],
@@ -14,4 +17,4 @@ export default {
     require('daisyui'),
   ],
 }
-
+}

@@ -1,14 +1,12 @@
-import { useState } from "react";
-import Navbar from "./components/shared/navbar/navbar";
-import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <Navbar></Navbar>
-    </>
+    <div className="">
+      <div>
+        <Header />
+      </div>
+    </div>
   );
 }
 
