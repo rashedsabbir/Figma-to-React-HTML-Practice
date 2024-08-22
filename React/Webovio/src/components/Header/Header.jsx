@@ -1,5 +1,5 @@
 import Navbar from "../shared/navbar/navbar";
-import img from "../../assets/slider-3.jpg";
+
 const Header = () => {
   return (
     <div className="relative">
@@ -32,11 +32,6 @@ const Header = () => {
           </h6>
         </div>
       </div>
-      <img
-        src={img}
-        alt="Small Overlay"
-        className="absolute bottom-[-2] right-0 transform -translate-y-1/4 h-36 w-10/12"
-      />
     </div>
   );
 };
