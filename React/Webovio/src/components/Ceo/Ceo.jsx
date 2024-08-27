@@ -2,8 +2,8 @@ import React from "react";
 import img from "../../assets/slider-4.png";
 const Ceo = () => {
   return (
-    <div className="pt-24 pb-12 px-40">
-      <div className="flex flex-row justify-between text-stone-600">
+    <div className="pt-24 pb-24 px-40">
+      <div className="flex flex-row justify-between text-stone-600 ">
         <div className="flex flex-col">
           <h6 className="text-sm pt-20 pb-8">What we do for you?</h6>
           <h1 className="font-bold pb-8 text-3xl">
