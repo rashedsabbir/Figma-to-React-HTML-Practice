@@ -13,7 +13,7 @@ const Ceo = () => {
             <br />
             Development
           </h1>
-          <h6 className="text-sm pb-8 text-slate-800">
+          <h6 className="text-sm pb-8 text-slate-500">
             There’s no secret sauce, no wizard behind the curtain. What
             <br />
             makes Aerolab tick is an interdisciplinary team with a<br />

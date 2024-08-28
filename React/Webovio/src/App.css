@@ -43,4 +43,6 @@
 
 .project-pic {
   background-image: url(./assets/slider-5.png);
+  width: 600px;
+  height: 90%;
 }
