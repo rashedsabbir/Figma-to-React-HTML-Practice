@@ -3,6 +3,7 @@ import "./App.css";
 import img from "./assets/slider-3.jpg";
 import Ceo from "./components/Ceo/Ceo";
 import Projects from "./components/Projects/Projects";
+import Model from "./components/Model/Model";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         />
         <Ceo />
         <Projects />
+        <Model />
       </div>
     </div>
   );

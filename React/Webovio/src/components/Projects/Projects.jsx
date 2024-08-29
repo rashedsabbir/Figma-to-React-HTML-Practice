@@ -20,7 +20,7 @@ const Projects = () => {
           </h6>
         </div>
       </div>
-      <div className="flex flex-row ">
+      <div className="flex flex-row">
         <section className=" relative overflow-hidden z-[1] ">
           <div className=" px-4 pr-10 ">
             <div className="flex flex-row">
@@ -28,7 +28,7 @@ const Projects = () => {
                 <div className="bg-contain bg-no-repeat    project-pic"></div>
               </div>
 
-              <div className="bg-white shadow-2xl -ml-[330px] mt-[300px] h-56 w-100 p-8 rounded-lg">
+              <div className="bg-white shadow-2xl -ml-[330px] mt-[300px] h-56 w-100 p-8 rounded-lg mb-16">
                 <p class=" text-[14px] italic  text-stone-600 pb-6">
                   “In my history of working with trade show <br /> vendors, I
                   can honestly say that there is not one <br /> company that
