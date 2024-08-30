@@ -52,3 +52,9 @@
   width: 600px;
   height: 90%;
 }
+
+.bookings-pic {
+  background-image: url(./assets/slider-10.png);
+  width: 600px;
+  height: 90%;
+}
