@@ -5,6 +5,7 @@ import Ceo from "./components/Ceo/Ceo";
 import Projects from "./components/Projects/Projects";
 import Model from "./components/Model/Model";
 import Bookings from "./components/Bookings/Bookings";
+import Pricing from "./components/Pricing/Pricing";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Projects />
         <Model />
         <Bookings />
+        <Pricing />
       </div>
     </div>
   );
