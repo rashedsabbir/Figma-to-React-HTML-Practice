@@ -50,9 +50,9 @@ const Bookings = () => {
             <br /> imagine the difference it might make.
           </h6>
           <p className="pt-20">
-            <a className="flex flex-row gap-1 items-center border-b-2 w-32 border-gray-300  text-sm font-bold text-gray-300 hover:text-gray-300 cursor-pointer">
+            <a className="flex flex-row gap-1 items-center border-b-2 w-32 border-yellow-400  text-sm font-bold text-yellow-400 hover:text-yellow-400 cursor-pointer">
               <svg
-                fill="#d1d5db"
+                fill="#facc15"
                 width="10px"
                 height="10px"
                 viewBox="0 0 24 24"
