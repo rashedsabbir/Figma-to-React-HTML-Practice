@@ -3,7 +3,7 @@ import React from "react";
 const Pricing = () => {
   return (
     <div className="px-40">
-      <div className="border-b-2 border-gray-100 mb-24 mt-10 flex items-center justify-center w-[840px]"></div>
+      <div className="border-b-2 border-gray-100 mb-24 mt-10 flex items-center justify-center w-[970px]"></div>
       <section class="">
         <h1 className="font-bold pb-8  text-3xl text-slate-600">
           Deation & Evaluation - Best Way

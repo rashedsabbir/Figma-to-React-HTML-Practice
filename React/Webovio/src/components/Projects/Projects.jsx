@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div>
       <div className=" px-40">
-        <div className="border-b-2 border-gray-100 mb-24 flex items-center justify-center w-[840px]"></div>
+        <div className="border-b-2 border-gray-100 mb-24 flex items-center justify-center w-[930px]"></div>
         <div className="flex flex-row gap-24 mb-12">
           <h1 className="font-bold pb-8 text-3xl text-stone-600">
             We Have Some

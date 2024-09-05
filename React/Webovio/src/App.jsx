@@ -6,6 +6,7 @@ import Projects from "./components/Projects/Projects";
 import Model from "./components/Model/Model";
 import Bookings from "./components/Bookings/Bookings";
 import Pricing from "./components/Pricing/Pricing";
+import Footer from "./components/shared/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Model />
         <Bookings />
         <Pricing />
+        <Footer />
       </div>
     </div>
   );
