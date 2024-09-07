@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-stone-700 text-white px-28">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="flex flex-row justify-between">
-          <div className="grid grid-cols-1 gap-20 sm:grid-cols-2  lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-20 pr-10 sm:grid-cols-2 border-r border-stone-600 border-slim lg:grid-cols-3">
             <div>
               <p className="font-medium text-white">Services</p>
 
@@ -152,7 +152,8 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="border-t-2 border-gray-100 flex rotate-90  w-[100px]"></div>
+          {/* <div className="border-t-2 border-gray-100 flex rotate-90  w-[100px]"></div> */}
+          {/* <div className="divide-x-2 divide-solid divide-black">h</div> */}
           <div>
             <div className="flex flex-row justify-center items-center ">
               <svg
