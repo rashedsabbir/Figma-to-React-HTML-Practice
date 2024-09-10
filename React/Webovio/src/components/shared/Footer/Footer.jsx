@@ -2,10 +2,62 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-stone-700 text-white px-28">
-      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 space-y-6">
+    <div className="">
+      <div className="absolute left-0 transform -translate-y-1/2 h-56 w-5/6 shadow-2xl bg-zinc-50 px-36 flex py-8 flex-col">
+        <h1 className="text-[40px] font-bold text-stone-600 pb-8">
+          Let’s make something <br /> amazing together.
+        </h1>
+        <h6 className="">
+          <a className="flex flex-row gap-1 items-center border-b-2 w-36 border-gray-300  text-sm font-bold text-gray-300 hover:text-gray-300 cursor-pointer">
+            <svg
+              fill="#d1d5db"
+              width="10px"
+              height="10px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z" />
+            </svg>
+            LET'S GET STARTED
+          </a>
+        </h6>
+      </div>
+      <div className=" py-6 pt-48 space-y-12 bg-stone-700 text-white px-36">
+        <div className="flex flex-row gap-28 ">
+          <div>
+            <p className="text-sm text-stone-400">POHNE</p>
+
+            <ul className="mt-8 space-y-4 ">
+              <li>
+                <a
+                  href="#"
+                  className=" text-white transition hover:opacity-75 text-sm font-bold"
+                >
+                  {" "}
+                  +32 50 31 28 32{" "}
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-sm text-stone-400">ADDRESS</p>
+
+            <ul className="mt-8 space-y-4 ">
+              <li>
+                <a
+                  href="#"
+                  className=" text-white transition hover:opacity-75 text-sm font-bold"
+                >
+                  {" "}
+                  491 Merlin Crest Suite 963{" "}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div className="flex flex-row justify-between border-y py-16 border-stone-600 border-slim">
-          <div className="grid grid-cols-1 gap-20 pr-10 sm:grid-cols-2 border-r border-stone-600 border-slim lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-20 pr-16 sm:grid-cols-2 border-r border-stone-600 border-slim lg:grid-cols-3">
             <div>
               <p className="font-medium text-white">SERVICES</p>
 
@@ -157,7 +209,7 @@ const Footer = () => {
             <p className="font-medium text-white">GET IN TOUCH</p>
 
             <p className="mt-8 max-w-xs text-stone-400">
-              Feel free to get in touch with us via email
+              Feel free to get in touch with us <br /> via email
             </p>
             <p className="mt-6 text-lg font-extrabold text-white">
               info.webovio@gmail.com
@@ -272,7 +324,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
