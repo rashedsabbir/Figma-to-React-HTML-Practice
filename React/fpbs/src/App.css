@@ -36,3 +36,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.background-image {
+  background-image: url(./assets/image-21.jpg);
+  background-position: center;
+}

@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="mx-36 my-24">
+    <div className="lg:mx-36 lg:my-24">
       <Header />
     </div>
   );

@@ -1,12 +1,11 @@
 import React from "react";
-import img from "../assets/image-1.jpg";
+import img from "../assets/image-21.jpg";
 const header = () => {
   return (
     <div className="border-[1px] border-white rounded-3xl bg-black">
-      <div class="relative flex justify-center w-[1000px] h-[700px] border border-8 border-black rounded-3xl ">
-        <div class="absolute pl-1 border border-8  border-black h-full w-full rounded-2xl">
-          <img src={img} className="flex justify-center" alt="" srcset="" />
-        </div>
+      <div class="relative w-auto justify-center bg-center h-[700px] border border-8 border-black rounded-3xl ">
+        {/* <img src={img} className="" alt="" srcset="" /> */}
+        <div class="absolute pl-2 flex  border border-8 background-image border-black h-full w-full rounded-t-2xl"></div>
       </div>
     </div>
   );
